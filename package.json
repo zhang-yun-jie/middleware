@@ -1,5 +1,5 @@
 {
-  "name": "@pawelgalazka/middleware",
+  "name": "@zhangyunjie/middleware",
   "version": "1.0.0",
   "description": "Simple middleware pattern engine",
   "main": "./lib/index.js",
@@ -8,7 +8,7 @@
     "clean": "rm -rf ./lib",
     "build": "tsc",
     "lint": "tslint -c tslint.json 'src/*.ts' 'test/**/*.ts'",
-    "test": "yarn run lint && yarn build && jest --coverage",
+    "test": "npm run lint && npm build && jest --coverage",
     "test:unit": "jest ./tests/unit/*.spec.ts",
     "test:e2e": "jest ./tests/e2e/*.e2e.spec.ts"
   },
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pawelgalazka/middleware.git"
+    "url": "git+https://github.com/zhang-yun-jie/middleware.git"
   },
   "keywords": [
     "middleware",
@@ -32,10 +32,7 @@
   ],
   "author": "Paweł Gałązka",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pawelgalazka/middleware/issues"
-  },
-  "homepage": "https://github.com/pawelgalazka/middleware#readme",
+  "homepage": "https://github.com/zhang-yun-jie/middleware#readme",
   "devDependencies": {
     "@babel/core": "7.2.2",
     "@babel/preset-env": "7.3.1",

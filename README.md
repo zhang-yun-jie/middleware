@@ -2,11 +2,11 @@
 Simple middleware pattern engine
 
 ```
-npm install --save @pawelgalazka/middleware
+npm install --save @zhangyunjie/middleware
 ```
 
 ```ts
-import { middleware, Middleware } from '@pawelgalazka/middleware'
+import { middleware, Middleware } from '@zhangyunjie/middleware'
 
 interface IMiddlewareArguments {
   arg1: string
