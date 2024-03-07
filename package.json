@@ -1,5 +1,5 @@
 {
-  "name": "@zhangyunjie/middleware",
+  "name": "@yun-jie/middleware",
   "version": "1.0.0",
   "description": "Simple middleware pattern engine",
   "main": "./lib/index.js",
